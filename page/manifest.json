@@ -1,0 +1,14 @@
+{
+    "short_name": "短名稱",
+    "name": "這是一個完整名稱",
+    "icons": [
+        {
+            "src": "ic_launcher.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ],
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "start_url": "index.html"
+}
