@@ -1,6 +1,6 @@
 {
-    "short_name": "短名稱",
-    "name": "這是一個完整名稱",
+    "short_name": "短標題",
+    "name": "完整標題",
     "icons": [
         {
             "src": "ic_launcher.png",
@@ -10,5 +10,5 @@
     ],
     "background_color": "#2196f3",
     "display": "standalone",
-    "start_url": "index.html"
+    "start_url": "thai.html"
 }
