@@ -1,13 +1,6 @@
 {
     "short_name": "短標題",
-    "name": "完整標題",
-    "icons": [
-        {
-            "src": "ic_launcher3.png",
-            "type": "image/png",
-            "sizes": "144x144"
-        }
-    ],
+    "name": "完整標題"
     "background_color": "#2196f3",
     "display": "standalone",
     "start_url": "index.html"
