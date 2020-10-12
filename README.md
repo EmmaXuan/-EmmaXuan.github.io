@@ -1,2 +1,2 @@
 ### pwa 首頁連結
->https://emmaxuan.github.io/emma/page/index.html
+>https://emmaxuan.github.io/emma/page
