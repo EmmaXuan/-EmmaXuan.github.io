@@ -3,7 +3,7 @@
     "name": "完整標題",
     "icons": [
         {
-            "src": "ic_launcher3.png",
+            "src": "ic_launcher.png",
             "type": "image/png",
             "sizes": "144x144"
         }
