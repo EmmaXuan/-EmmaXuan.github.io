@@ -17,12 +17,10 @@
   <img src="https://developer.microsoft.com/zh-tw/windows/pwa/images/PWA_Enterprise_491x276.png">
   
   <script>
-  if ('serviceWorker' in navigator) {  // 檢查browser有無支援serviceWorker
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('sw.js')
-        .then(function(registration) {})    // register會回傳一個Promise
-        .catch(function(err) {})
-    })
+  if('serviceWorker' in navigator) {   // 檢查browser有無支援serviceWorker
+    navigator.serviceWorker.register('sw.js').then(function() {   // register會回傳一個Promise
+        console.log('Service worker registered!');
+    });
   }
   </script>
 </body>
