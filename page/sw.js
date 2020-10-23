@@ -1,9 +1,5 @@
-// 此處程式碼 後面相關章節會去說明
-var cacheName = 'helloWorld'
-
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(cacheName)
     .then(cache => cache.addAll([
       'index.html'
     ]))
