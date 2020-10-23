@@ -11,17 +11,16 @@
 </head>
 <body>
   <h1>PWA Demo</h1>
-  
+
   漸進式網絡應用程式是一種普通網頁或網站架構起來的網絡應用程式，但它可以以傳統應用程式或原生移動應用程式形式展示給用戶。這種應用程式形態視圖將目前最為現代化的瀏覽器提供的功能與行動裝置的體驗優勢相結合。
-  <br/>
+
   <img src="https://developer.microsoft.com/zh-tw/windows/pwa/images/PWA_Enterprise_491x276.png">
   
   <script>
-  // 此處程式碼 後面相關章節會去說明
-  if ('serviceWorker' in navigator) {
+  if ('serviceWorker' in navigator) {  // 檢查browser有無支援serviceWorker
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('sw.js')
-        .then(function(registration) {})
+        .then(function(registration) {})    // register會回傳一個Promise
         .catch(function(err) {})
     })
   }
