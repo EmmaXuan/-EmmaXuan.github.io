@@ -17,12 +17,6 @@
 
   <img src="https://developer.microsoft.com/zh-tw/windows/pwa/images/PWA_Enterprise_491x276.png">
   <a href="./page2.html">click me to page2</a>
-  <script>
-  if('serviceWorker' in navigator) {   // 檢查browser有無支援serviceWorker
-    navigator.serviceWorker.register('sw.js').then(function() {   // register會回傳一個Promise
-        console.log('Service worker registered!');
-    });
-  }
-  </script>
+  
 </body>
 </html>
